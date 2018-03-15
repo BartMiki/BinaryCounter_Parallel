@@ -10,6 +10,9 @@ namespace BinaryCounter_Parallel
     {
         static void Main(string[] args)
         {
+            BinaryCounter bs = new BinaryCounter(16);
+            bs.Display();
+            Console.ReadLine();
         }
     }
 }
